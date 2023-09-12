@@ -1,0 +1,77 @@
+
+/* Estilos globais */
+body {
+    background-image:url(yogastudio.jpg);
+    background-size:cover;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+/* Estilos do cabeçalho */
+header {
+    text-align: center;
+    color: #555;
+    background-color: rgba(221, 160, 221, 0.877);
+    padding: 2%;
+    border-radius: 20px;
+    border-style:outset;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.header-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Estilos das seções */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.classes, .testimonials, .about, .location, .contact {
+    padding: 40px 0;
+    background-color: rgba(221, 160, 221, 0.656);
+    padding: 1%;
+    border-radius: 30px;
+    border-style:outset;
+    margin-bottom: 100px;
+    margin-left: 90px;
+    margin-right: 90px;
+    width: fit-content;
+}
+
+/* Estilos das aulas */
+.class-card {
+    text-align: center;
+    margin: 20px;
+}
+
+.class-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilos dos depoimentos */
+.testimonial {
+    text-align: center;
+    margin: 20px;
+}
+
+.author {
+    font-style: italic;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
